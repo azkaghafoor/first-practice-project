@@ -1,0 +1,29 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#calculator {
+border: 2px solid black;
+height: 290px;
+width: 160px;
+}
+#display{
+height: 70px;
+width: 145px;
+margin: 2px 4px;
+}
+.button {
+  height: 30px;
+  width: 30px;
+  margin: 3px 3px;
+}
+.equal-button {
+  height: 60px;
+  width: 30px;
+}
+.primary-button {
+  height: 30px;
+  width: 30px;
+  margin: 2px 3px;
+}
