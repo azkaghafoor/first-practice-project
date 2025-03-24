@@ -1,29 +1,59 @@
+body {
+  background-color: rgb(30, 29, 29);
+}
 .button-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+margin: 3px 8px;
 }
 #calculator {
-border: 2px solid black;
-height: 290px;
+border: 2px solid rgb(37, 35, 35);
+height: fit-content;
 width: 160px;
+border-radius: 10px;
 }
 #display{
-height: 70px;
-width: 145px;
-margin: 2px 4px;
+height: 80px;
+width: 143px;
+/* margin: 1px 2px; */
+padding: 9px;
+background-color: black;
+color: white;
+border: none;
 }
 .button {
-  height: 30px;
-  width: 30px;
-  margin: 3px 3px;
+  height: 31px;
+  width: 31px;
+  margin: 1px 1px;
+  padding: auto;
+  border: none;
+  border-radius: 3px;
+  background-color: black;
+  color: white;
 }
 .equal-button {
   height: 60px;
   width: 30px;
+  margin: 1px 2px;
+  border: none;
+  border-radius: 3px;
+  background-color: black;
+  color: white;
 }
 .primary-button {
-  height: 30px;
-  width: 30px;
-  margin: 2px 3px;
+   height: 30px;
+   width: 30px;
+   margin: 2px 2px; 
+   border: none;
+   border-radius: 3px;
+   background-color: black;
+   color: white;
+}
+#divide {
+  border: none;
+  border-radius: 3px;
+  background-color: #25e09c;
+}
+#multiple {
+  border: none;
+  border-radius: 3px;
+  background-color: #25e09c;
 }
