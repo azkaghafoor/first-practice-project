@@ -1,11 +1,15 @@
 var currentDisplay = '';
 
 document.getElementById('clear').addEventListener("click" , () => {
+  let bgbutton = document.getElementById('clear');
+  bgbutton.style.backgroundColor = "red";
   currentDisplay = "";
   document.querySelector("#display").value = currentDisplay;
 });
 
 document.getElementById('divide').addEventListener("click" , () => {
+  let bgbutton = document.getElementById('divide');
+  bgbutton.style.backgroundColor = "pink";
   currentDisplay += "/";
   document.querySelector("#display").value = currentDisplay;
 });
@@ -16,6 +20,8 @@ document.getElementById('multiple').addEventListener("click" , () => {
 });
 
 document.getElementById('seven').addEventListener("click" , () => {
+  let bgbutton = document.getElementById('seven');
+  bgbutton.style.backgroundColor = "pink";
   currentDisplay += "7";
   document.querySelector("#display").value = currentDisplay;
 });

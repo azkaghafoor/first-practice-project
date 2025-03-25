@@ -21,6 +21,9 @@ color: white;
 border: none;
 border-radius: 3px;
 }
+#display:focus{
+  outline: none;
+}
 .button {
   height: 31px;
   width: 31px;
