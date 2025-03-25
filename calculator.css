@@ -1,11 +1,13 @@
 body {
-  background-color: rgb(30, 29, 29);
+  background-color: rgb(56, 55, 55);
 }
 .button-container {
+  display: flex;
 margin: 3px 8px;
 }
 #calculator {
-border: 2px solid rgb(37, 35, 35);
+border: 2px solid rgb(30, 29, 29);
+background-color:  rgb(28, 23, 23);
 height: fit-content;
 width: 160px;
 border-radius: 10px;
@@ -13,11 +15,11 @@ border-radius: 10px;
 #display{
 height: 80px;
 width: 143px;
-/* margin: 1px 2px; */
 padding: 9px;
-background-color: black;
+background-color:  rgb(28, 23, 23);
 color: white;
 border: none;
+border-radius: 3px;
 }
 .button {
   height: 31px;
@@ -25,12 +27,12 @@ border: none;
   margin: 1px 1px;
   padding: auto;
   border: none;
-  border-radius: 3px;
-  background-color: black;
+  border-radius: 5px;
+  background-color: rgb(30, 29, 29);
   color: white;
 }
 .equal-button {
-  height: 60px;
+  height: 65px;
   width: 30px;
   margin: 1px 2px;
   border: none;
@@ -44,7 +46,7 @@ border: none;
    margin: 2px 2px; 
    border: none;
    border-radius: 3px;
-   background-color: black;
+   background-color:  rgb(30, 29, 29);
    color: white;
 }
 #divide {
@@ -52,8 +54,43 @@ border: none;
   border-radius: 3px;
   background-color: #25e09c;
 }
+#divide:hover {
+  background-color: white;
+  color: black;
+}
 #multiple {
   border: none;
   border-radius: 3px;
   background-color: #25e09c;
+}
+#multiple:hover {
+  background-color: white;
+  color: black;
+}
+#subtract {
+  border: none;
+  border-radius: 3px;
+  background-color: #25e09c;
+}
+#subtract:hover {
+  background-color: white;
+  color: black;
+}
+#plus {
+  border: none;
+  border-radius: 3px;
+  background-color: #25e09c;
+}
+#plus:hover {
+  background-color: white;
+  color: black;
+}
+#equals {
+  border: none;
+  border-radius: 3px;
+  background-color: #25e09c;
+}
+#equals:hover {
+  background-color: white;
+  color: black;
 }

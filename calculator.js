@@ -89,3 +89,7 @@ document.getElementById('dot').addEventListener("click" , () => {
   currentDisplay += ".";
   document.querySelector("#display").value = currentDisplay;
 });
+document.getElementById('cross').addEventListener("click" , () => {
+  currentDisplay = "";
+  document.querySelector("#display").value = currentDisplay;
+});
